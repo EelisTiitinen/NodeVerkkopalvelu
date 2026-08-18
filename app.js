@@ -13,17 +13,27 @@ const {engine} = require("express-handlebars");
 
 const PORT = process.env.PORT || 8000;
 
-// Luo sovelluksen
+// Luo sovellus
 const app = express();
+
+// Luo view engine
+app.engine("handlebars", engine());
+app.set("view engine", "handlebars");
 
 // URL-REITIT
 // ----------
 
 // Kotisivun reitti
+app.get("/", (req, res) => {
+    res.render("index");
+});
 
 // Infosivun reitti
 
 // Yhteistietosivun reitti
 
-// SUORITA SOVELLUS JA TALLENNA MUUTOKSET
-// --------------------------------------
+// SUORITA SOVELLUS
+// ----------------
+
+app.listen(PORT);
+console.log("Palvelin aloitettu");
