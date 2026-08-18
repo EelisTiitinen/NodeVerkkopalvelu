@@ -1,0 +1,29 @@
+{
+  "name": "nodeverkkopalvelu",
+  "version": "1.0.0",
+  "description": "Harjoitustyö verkkopalvelun toteuttamisesta node.js:llä, Expressillä ja Handlebarsilla.",
+  "keywords": [
+    "Node.js",
+    "Express",
+    "Handlebars",
+    "Bootstrap"
+  ],
+  "homepage": "https://github.com/EelisTiitinen/NodeVerkkopalvelu#readme",
+  "bugs": {
+    "url": "https://github.com/EelisTiitinen/NodeVerkkopalvelu/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EelisTiitinen/NodeVerkkopalvelu.git"
+  },
+  "license": "ISC",
+  "author": "EelisT",
+  "type": "commonjs",
+  "main": "app.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
