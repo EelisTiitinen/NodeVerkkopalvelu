@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+}
+
+header {
+    width: 100vw;
+    background-color: rgb(109, 77, 77);
+    font-size: 30px;
+    color: white;
+    padding: 10px;
+}
+
+img {
+    border: double rgb(77, 77, 77) 10px;
+    border-radius: 20px;
+    margin: 40px;
+}
