@@ -1,3 +1,14 @@
-h1 {
-    color: red;
+:root {
+    --color-raseko-pinkki: rgb(232, 32, 112);
+    --color-raseko-tumma-sininen: rgb(27, 51, 89);
+    --color-raseko-valkea: rgb(239, 239, 239);
+    --color-raseko-vaalea-turkoosi: rgb(0, 150, 179);
+    --color-raseko-tumma-turkoosi: rgb(75, 188, 179);
+    --color-raseko-pinkki80: rgba(232, 32, 112, 0.8);
+    --color-raseko-pinkki60: rgba(232, 32, 112, 0.6);
+    --color-raseko-pinkki40: rgba(232, 32, 112, 0.4);
+}
+
+body {
+    font-family: Nunito Sans, Arial;
 }
