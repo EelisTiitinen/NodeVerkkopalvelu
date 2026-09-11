@@ -28,7 +28,12 @@ app.set("view engine", "handlebars");
 
 // Kotisivun reitti
 app.get("/", (req, res) => {
-    res.render("index");
+    let menu = {
+        "ruoka": "Kalapuikot",
+        "vege": "Kasvispihvit",
+        "lisukkeet": "Perunat"
+    }
+    res.render("index", menu);
 });
 
 // Infosivun reitti
