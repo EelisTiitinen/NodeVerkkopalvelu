@@ -16,6 +16,9 @@ const PORT = process.env.PORT || 8000;
 // Luo sovellus
 const app = express();
 
+
+app.use(express.static('public'));
+
 // Luo view engine
 app.engine("handlebars", engine());
 app.set("view engine", "handlebars");
